@@ -29,6 +29,7 @@ module "vpc" {
     Terraform = "true"
     Environment = "dev"
   }
+  
 }
 
 resource "aws_instance" "blog" {
